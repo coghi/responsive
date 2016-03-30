@@ -1,0 +1,89 @@
+/* BASE */
+
+body {
+	background-color: #e8ebeb;
+	color: #1a1a1a;
+	font-family: Verdana;
+	font-size: 0.75rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0.563em 0;
+}
+
+h2 {
+	font-size: 1.25rem;
+	margin: 0;
+}
+
+h3 {
+	font-size: 1.125rem;
+	margin: 0;
+}
+
+h4 {
+	font-size: 1rem;
+	margin: 0;
+}
+
+
+/* CARD */
+
+.card {
+	margin-top: 1.5rem;
+	padding: 1rem;
+	float: left;
+
+	border-radius: 0.125rem;
+	box-shadow: 0 0.0625rem 0.125rem rgba(0,0,0,0.24);
+	background: #fff;
+}
+
+/* PROMO CARD */
+
+.promo {
+	width: 49%;
+	margin-right: 2%;
+	padding-bottom: 0;
+}
+
+.promo:nth-of-type(2n) {
+	margin-right: 0;
+}
+
+.promo>.descricao {
+	color: #777;
+}
+
+.promo>.preco {
+	color: #3791c8;
+	font-weight: bold;
+}
+
+/* BRAND CARD */
+
+.brand {
+	padding: 0;
+	width: 23.5%;
+	margin-right: 2%;
+
+	text-align: center;
+
+	background-color: #f8f9fc;
+}
+
+.brand:nth-of-type(4n) {
+	margin-right: 0;
+}
+
+.brand>p {
+	background-color: #fff;
+	padding: 1rem;
+	margin: 0;
+	font-weight: bold;
+}
